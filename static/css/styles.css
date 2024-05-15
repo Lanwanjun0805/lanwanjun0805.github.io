@@ -1,0 +1,21 @@
+/* styles.css */
+.columns {
+    display: flex;
+    align-items: stretch; /* 垂直对齐视频 */
+}
+
+.column {
+    flex: 1; /* 确保三列均匀分布空间 */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* 垂直和水平居中内容 */
+}
+
+video {
+    width: 100%; /* 视频宽度填满容器 */
+    max-height: 300px; /* 限制视频的最大高度 */
+}
